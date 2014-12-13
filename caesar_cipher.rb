@@ -22,7 +22,8 @@ def caesar_cipher(message, shift)
 		end
 
 		number.chr
-	end.join
+	end
+	.join
 end
 
 puts caesar_cipher("What a string!", 5)
